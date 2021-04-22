@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BadModal from './bad_modal';
+import Modal from './modal';
 import Colors from './colors';
 
 export default class App extends Component {
@@ -12,11 +12,11 @@ export default class App extends Component {
         <div className="right">
           <h1>Hello</h1>
           <div>
-            <BadModal>
+            <Modal>
               <h1>A really long amount of Modal Content</h1>
               <p>Etc.</p>
               <Colors />
-            </BadModal>
+            </Modal>
           </div>
         </div>
       </div>
